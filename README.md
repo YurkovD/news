@@ -1,3 +1,4 @@
+![head image](./images/news-head2.jpg)
 # Проект "Новости со всего мира"
 
 

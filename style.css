@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-image: url(images/news-head2.jpg);
+    /*background: url(https://img.freepik.com/free-photo/black-lives-matter-movement-copy-space_23-2148913818.jpg?w=2000&t=st=1697996931~exp=1697997531~hmac=8ac0739603a8695e86c0df5449c2c9d72be0c6768f528a7f80ae43a8c8fe87cd) bottom no-repeat;*/
+    background-size: cover;
+}
+h1{
+    color: aliceblue;
+    font-size: 5em;
+    font-family:'Times New Roman', Times, serif;
+    }
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+footer .links{
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: gray;
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.copyright{
+    color: rgb(114, 147, 177);
+}
+.news{
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+article{
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px; 
+    border-bottom: 1px solid gray;
+    font-size: 1.2em;
+}
+article a {
+color: rgb(72, 73, 75);
+text-decoration: none;
+}
+article a:hover {
+color: #0085a1;
+}
+article h2{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+margin-bottom: 10px;
+}
+.article-meta{
+    color: #808183;
+    margin-bottom: 20px;
+}
+article img{
+    width: 100%;
+    height: 300px;
+    object-fit:cover;
+}
